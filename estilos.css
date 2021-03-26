@@ -1,0 +1,408 @@
+/*Cuerpo*/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+p {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    margin: 15px;
+    text-align: justify;
+}
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-icon {
+
+    display: none;
+
+}
+
+
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.Titular {
+    text-align: center;
+    margin-top: 130px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+nav a {
+
+    padding: 0;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+
+    color: gray;
+    transition: 1s;
+    transform: scale(1.4);
+    display: inline-block;
+    
+}
+
+
+a {
+    font-size: 14px;
+    background: gray;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+    /*Fondo*/
+
+header {
+
+    background: url(../Imagenes/fondo\ backgroun.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.contenedor-header {
+
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+}
+
+
+/* Sobre mi  */
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-sobremi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-parrafo-y-boton {
+    width: 42%;
+    text-align: justify;
+}
+
+.contenedor-parrafo-y-boton p {
+    font-size: 18px;
+}
+
+.contenedor-parrafo-y-boton a {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/*   Servicios    */
+
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .servicio {
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: justify;
+  }
+  
+  .violeta {
+    background: #ababb3;
+    box-shadow: 1px 1px 14px #ccc;
+  }
+  
+  .celeste {
+    background: #2b2e30;
+    box-shadow: 1px 1px 14px #ccc;
+  }
+  
+  .servicio h4 {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .servicio img {
+    float: right;
+  }
+  
+  .servicio p {
+    font-size: 18px;
+    height: 250px;
+  }
+
+  span {
+      font-size: 80px;
+      color: rgb(0, 0, 0);
+  }
+
+  .owl-nav {
+      text-align: center;
+  }
+
+
+ /* Scroll Personalizado */
+
+ body::-webkit-scrollbar {
+
+	width: 10px;
+	background: black;
+
+}
+
+body::-webkit-scrollbar-thumb {
+
+	background: rgba(255,255,255, .2);
+	border-radius: 10px;
+}
+
+
+
+/* Por qué */
+
+.contenedor-porque {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-porque h4 {
+
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.contenedor-porque p {
+
+    font-size:  16px;
+    line-height: 29px;
+}
+
+.porque-singular {
+
+    width: 28%;
+}
+
+
+
+/* Blog */
+
+#Blog {
+
+    background: #F9FAFC;
+    padding-top: 50PX;
+}
+
+#Blog img {
+
+    width: 100%;
+}
+
+#Blog h4 {
+
+    font-size: 23px;
+    margin: 0;
+    padding: 20px;
+}
+
+#Blog p {
+
+    color: #5A6169;
+    line-height: 16px;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 20px 20px 20px;
+
+}
+
+#Blog a {
+    
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contendor-publicaciones {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicación {
+
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom: 20px;
+}
+
+.primer-parrafo {
+
+    padding: 0px 20px 20px 20px !important;
+}
+
+.segundo-parrafo {
+
+    margin-bottom: 24px !important;
+}
+
+
+
+/* Que esperas */
+
+
+#que-esperas {
+
+    background: linear-gradient(rgba(84, 85, 90, 0.94),rgba(134, 135, 136, 0.9));
+    text-align: center;
+    padding: 50px 0 50px 0;
+    margin-top: 50px;
+}
+
+#que-esperas h3 {
+
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#que-esperas a {
+
+    padding: 15px 45px;
+    transition: 1s;
+    position: relative;
+    top: -10px;
+    width: 150px;
+}
+
+#que-esperas a:hover {
+
+    color: black;
+    transition: 1s;
+    transform: rotate(360deg);
+    display: inline-block;
+}
+
+
+/* Que esperas whatsapp */
+
+#whatsapp a {
+
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
+}
+
+
+
+
+/* Footer */
+
+.total-footer {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.copy {
+
+    margin-top: 7%;
+}
+
+.copy-font {
+
+    font-weight: bold;
+    font-size: 23px;
+    color: black;
+}
+
+.social-footer {
+
+    margin-top: 7%;
+}
+
+.social-footer a {
+
+    background: rgba(0, 0, 0, 0);
+    text-decoration: none;
+
+}
+
+
+
+
+/* Diseño para dispositivos moviles */
+
+
+@media (max-width: 480px)
+
+{
+
+   
+
+    nav {
+
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #5cb8ff;
+        width: 100%;
+        display: none;
+    }
+
+    nav .list {
+
+        flex-direction: column;
+        display: flex;
+    }
+
+    .menu-icon {
+
+        display: none;
+        width: 25px;
+    }
+
+
+}
